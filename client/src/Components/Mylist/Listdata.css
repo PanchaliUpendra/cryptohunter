@@ -1,0 +1,19 @@
+.listdata-container{
+    background-color: #ddf6ff;
+    min-height: 100vh;
+}
+.listdata-nothing-header{
+    text-align: center;
+}
+.listdata-table{
+    width: 100%;
+}
+
+.listdata-image{
+    width:45px;
+    height:45px;
+    margin: auto;
+}
+table>tr td{
+    text-align: center;
+}

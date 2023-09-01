@@ -1,0 +1,186 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: #ddf6ff;
+}
+.login-register-choose-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.login-register-choose-btns button{
+    width:100%;
+    min-height: 30px;
+    border: none;
+    font-weight: bold;
+    min-height: 40px;
+    cursor:pointer;
+   
+}
+.active-login-btn{
+    background-color: blue;
+    color: white;
+}
+.non-active-login-btn{
+    background-color: white;
+}
+
+.login-signin-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    margin-top:4%;
+    margin-bottom: 1%;
+}
+.login-signin-container>h1{
+    margin-top:1%;
+    margin-bottom:1%;
+    color:blue;
+}
+.login-inner-signin-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.login-inner-signin-container div{
+    padding: 2%;
+}
+.login-inner-signin-container label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 3%;
+    padding-top: 3%;
+
+}
+.login-inner-signin-container input{
+    width:100%;
+    border:none;
+    border-bottom: 2px solid black;
+    height: 30px;
+    padding-left: 5px;
+    margin-top: 1%;
+    font-size: 1.1rem;
+}
+
+.login-inner-signin-container input:focus{
+    outline: none;
+    background-color: #ddf6ff;
+    color: black;
+    font-weight: bold;
+}
+
+.signin-btn-submit{
+    width: 40%;
+    background-color: white;
+    min-height: 30px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border: none;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1000px){
+    .login-register-choose-btns{
+        width:50%;
+    }
+    .login-signin-container{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .login-register-choose-btns{
+        width:70%;
+    }
+    .login-signin-container{
+        width: 90%;
+    }
+}
+
+/* registration css */
+
+
+.register-signup-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    margin-top:4%;
+    margin-bottom: 1%;
+    padding:2%;
+}
+.register-signup-container>h1{
+    margin-top:1%;
+    margin-bottom:1%;
+    color:blue;
+}
+.register-inner-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.register-inner-container label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 1%;
+    padding-top: 3%;
+}
+
+.register-inner-container input{
+    width:100%;
+    border:none;
+    border-bottom: 2px solid black;
+    height: 30px;
+    padding-left: 5px;
+    margin-top: 1%;
+    font-size: 1.1rem;
+}
+
+.register-inner-container input:focus{
+    outline: none;
+    background-color: #ddf6ff;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1000px){
+    .register-inner-container{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:550px){
+    .register-inner-container{
+        width: 90%;
+    }
+
+}

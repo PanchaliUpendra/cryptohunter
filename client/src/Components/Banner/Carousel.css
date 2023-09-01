@@ -1,0 +1,13 @@
+.carousel-banner-image-names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-banner-image-names span{
+    margin-top:0.5%;
+    margin-bottom: 0.5%;
+}
+.carousel-banner-first-span{
+    text-transform:uppercase;
+}
